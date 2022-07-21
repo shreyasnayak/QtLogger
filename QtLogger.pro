@@ -32,6 +32,6 @@ HEADERS += \
 linux{
     target.path = /usr/local/lib
     headers.path =/usr/local/include
-    headers.files += *.h
+    headers.files += src/*.h
     INSTALLS += target headers
 }
